@@ -1,0 +1,748 @@
+/*
+    Theme Name: Bethany
+    Theme URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+body {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.section-padding {
+  padding: 60px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+/**media Queries**/
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.main-header {
+  background: url(../img/Visit11.jpg) no-repeat;
+  background-size: cover;
+  min-height: 610px;
+  height: 100vh;
+}
+
+.main-header.about {
+  background: url(../img/sabtang-beach.jpg) no-repeat;
+  background-size: cover;
+}
+
+.main-header.package {
+  background: url(../img/savidug.jpg) center right no-repeat;
+  background-size: cover;
+}
+
+.main-header.gallery {
+  background: url(../img/vayang-rolling-hills2.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.main-header.guide {
+  background: url(../img/image00002.jpeg) center no-repeat;
+  background-size: cover;
+}
+
+/*.bg-color {
+  background-color: RGBA(0, 0, 0, 0.41);
+}*/
+
+.nav>li>a {
+  padding: 0px;
+}
+
+.navbar-left { /*.navbar-brand*/
+  padding: 0px;
+  height: inherit;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-left img {
+  margin-top: -10px;
+}
+
+.navbar-default .navbar-left { /*.navbar-brand*/
+  color: #ea3f3f;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar .navbar-left { /*.navbar-brand*/
+  color: #ea3f3f;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-left:hover, .navbar-left:focus {
+  text-decoration: none;
+  color: #de7373;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #c31515; /*#FFD34E*/
+  text-transform: uppercase;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #004365;
+  padding: 10px 20px;
+  text-transform: uppercase;
+	background-color: transparent;
+  font-weight: bolder;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #c31515; /*#FFD34E*/
+}
+
+.navbar-fixed-top {
+  padding: 40px 0;
+  transition: all 0.5s;
+}
+
+.navbar-nav {
+  /*background: #ccc;*/
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(255, 255, 255, 0.5);
+		border-top: 0;
+	}
+}
+
+.top-nav-collapse {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 0; /*20px*/
+}
+
+.wrapper {
+  padding: 90px 0px 130px;
+}
+
+.home {
+  height: 100vh;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.top-title {
+  z-index: 5;
+  font-size: 27px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 38px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ea3f3f;
+  line-height: 71px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 123px;
+  font-weight: 700;
+  color: #ea3f3f;
+  line-height: 88px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding: 25px 0px;
+}
+
+.btn-submit {
+  background: #093f7f; /*#FFD34E*/
+  border: 0px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  font-weight: normal;
+  border-radius: 0px;
+  letter-spacing: 1px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-top: 25px;
+  border: 2px solid #093f7f; /*#FFD34E*/
+}
+
+.btn-submit:hover {
+  background: #fff;
+  color: #093f7f;
+  font-weight: bolder;
+}
+
+/****/
+
+#cta-1 {
+  padding: 40px 0px;
+  background-color: #f8f8f8;
+}
+
+.cta-info {
+  border: 5px solid #40ae36; /*#FFD34E*/
+  padding: 40px 30px;
+}
+
+.cta-info h3 {
+  font-size: 24px;
+}
+
+.cta-info b {
+  color: #ea3f3f;
+}
+
+.dec-tec {
+  font-size: 34px;
+}
+
+/****/
+
+#feature, #staff {
+  background-color: #f8f8f8;
+}
+
+.head-title {
+  color: #093f7f; /*#2b2b2b*/
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.botm-line {
+  background-color: #093f7f; /*#2b2b2b*/
+  width: 34px;
+  height: 3px;
+  display: inline-block;
+  /* For Safari 3.1 to 6.0 */
+  -webkit-transition: all 2s ease-in-out;
+  /* Standard syntax */
+  transition: all 500ms ease-in-out;
+}
+
+.section-title:hover .botm-line {
+  width: 70px;
+}
+
+p {
+  color: #000; /*#888*/
+}
+
+.icon {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.icon i {
+  font-size: 35px;
+}
+
+.icon-text {
+  margin-left: 73px;
+  padding: 0px 25px 25px 0px;
+}
+
+h3.txt-tl {
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+/****/
+
+.parallax {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+.bg-image-2 {
+  background: url('../img/batanes2.jpeg') no-repeat center fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section {
+  position: relative;
+  padding: 88px 0 67px 0;
+  display: block;
+}
+
+.cta-txt {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.cta-txt h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cta-txt p {
+  color: #fff;
+}
+
+/****/
+
+.portfolio-box {
+  margin-bottom: 15px;
+}
+
+.padding-right-zero {
+  padding-right: 0px;
+}
+
+#contact {
+  background-color: #f8f8f8;
+}
+
+.validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#sendmessage {
+  color: green;
+  border: 1px solid green;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+  display: block;
+}
+
+.black {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.btn-send {
+  border-radius: 0px;
+  color: #fff;
+  background-color: #093f7f;
+  border: solid 2px #093f7f;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-send:hover {
+  color: #093f7f;
+  background-color: #fff;
+  font-weight: bolder;
+}
+
+a, a:hover {
+  color: #40ae36; /*#FFD34E*/
+}
+
+.cont-title {
+  font-size: 24px;
+  padding: 15px 0px;
+}
+
+.location-info p span {
+  display: inline-block;
+}
+
+.location-info p span {
+  width: 40px;
+  font-size: 24px;
+  color: #666;
+  vertical-align: middle;
+}
+
+.location-info p {
+  margin-bottom: 5px;
+}
+
+.location-info p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #000;
+}
+
+.contact-icon-container {
+  position: absolute;
+  top: -38px;
+  right: 0;
+  padding-right: 20px;
+  font-size: 320px;
+  color: #555;
+  line-height: 300px;
+  -ms-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+/****/
+
+#footer {
+  background-color: #191919;
+  padding: 20px 0px;
+}
+
+.footer-copyright {
+  color: #fff;
+  line-height: 32px;
+  text-align: left;
+}
+
+.footer-social {
+  float: right;
+}
+
+.footer-social a {
+  font-size: 18px;
+  color: #666;
+}
+
+.link-dec, .link-dec:hover {
+  color: #000;
+}
+
+.credits a {
+  color: #40ae36;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  /*color: #40ae36;*/
+}
+
+a.info-link > i, a.info-link {
+  color: #40ae36;
+  vertical-align: middle;
+  transition: all 500ms linear;
+}
+
+a.info-link:hover > i {
+  padding-left: .5rem;
+}
+
+a.info-link:hover {
+  color: #40ae36;
+}
+
+/*.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1.5rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}*/
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+  .d-flex {
+    display: flex;
+  }
+  .align-items-center {
+    align-items: center !important;
+  }
+  .justify-content-center {
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 900px) {
+  .section-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 450px) {
+  .navbar-toggle:hover, .navbar-toggle {
+    background-color: #fff;
+    color: #000;
+  }
+  .navbar-toggle {
+    margin-top: 0px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    text-align: center;
+  }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  }
+  .top-title {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .sub-title {
+    font-size: 24px;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+  .padding-right-zero {
+    padding-right: 15px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+  .cta-txt h3 {
+    font-size: 28px;
+  }
+  body {
+    font-size: 14px;
+  }
+  h3.txt-tl {
+    font-size: 20px;
+  }
+}
+
+/** Imported from Bootstrap 4.3 **/
+
+.fade {
+  transition: opacity 0.15s linear;
+  opacity: 1!important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade {
+    transition: none;
+  }
+}
+
+.fade.show {
+  transition: opacity 0.15s linear
+  opacity: 1!important;
+}
+
+.fade:not(.show) {
+  opacity: 0!important;
+}
+
+.collapse:not(.show) {
+  /*display: none;*/
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.nav-pills {
+  margin-bottom: 1rem;
+}
+
+.nav-pills li a {
+  padding: 1rem 0px;
+}
+
+.nav-pills li:hover a {
+  color: #23527c;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .collapsing {
+    transition: none;
+  }
+}
+
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.tab-content > .active {
+  transition: opacity 0.15s linear;
+  display: block!important;
+}
+
+.d-none {
+  display: none;
+}
+
+.tab-content p {
+  /*font-size: 1.2rem;*/
+  margin: 16px 0px;
+}
+
+.tab-content h3, .np {
+  /*font-size: 1.2rem;*/
+  margin: 24px 0px;
+}
+
+.bg-green {
+  background-color: #40ae36;
+}
+
+.np {
+  padding: 0px;
+}
+
+.exp:hover {
+  cursor: pointer;
+}
+
+.exp:hover i {
+  color: #40ae36;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-content .d-flex {
+    height: 280px;
+    /*border-left: solid 1px #40ae36;*/
+  }
+
+  .border-l-blue {
+    border-left: solid 1px #337ab7;
+  }
+
+  .tab-content .d-320 {
+    height: 262px;
+  } 
+
+  .tab-content .d-56 {
+    height: 57px;
+  } 
+
+  .tab-content .d-215 {
+    height: 215px;
+  } 
+}
+
+.border-r-blue {
+  border-right: solid 1px #337ab7;
+}
+
+.border-l-blue-p {
+  border-left: solid 1px #337ab7;
+}
+
+.border-l-white {
+  border-left: solid 1px #fff;
+}
+
+.border-b-blue {
+  border-bottom: solid 1px #337ab7;
+}
+
+a.thumbnail:hover {
+  text-decoration: none;
+}
+
+.packages .row.exp:hover {
+    background-color: #337ab7;
+}
+
+.packages .row.exp:hover {
+    background-color: #337ab7;
+}
+
+.p-3 {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #D6D6D6; /*#40ae36*/
+}
+
+.p-3:hover {
+  background-color: #337ab7;
+}
+
+/*https://www.thepoortraveler.net/2018/02/batanes-tour-itinerary/*/
